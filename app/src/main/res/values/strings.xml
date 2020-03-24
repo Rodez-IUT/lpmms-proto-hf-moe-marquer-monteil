@@ -12,4 +12,13 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+    <string name="header_welcome">Bonjour Pierre</string>
+    <string name="menu_accueil">Accueil</string>
+    <string name="menu_commander">Commander</string>
+    <string name="menu_actualite">Actualités</string>
+    <string name="menu_restaurant">Restaurants</string>
+    <string name="menu_parametre">Paramètres</string>
+    <string name="menu_deconnexion">Déconnexion</string>
+    <string name="menu_mentions_legales">Mentions légales</string>
+    <string name="menu_aide">Aide en ligne</string>
 </resources>

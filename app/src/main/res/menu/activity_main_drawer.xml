@@ -3,18 +3,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/actions"
+        android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_accueil" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_commander"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="@string/menu_commander" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_actualite"
+            android:icon="@drawable/ic_update"
+            android:title="@string/menu_actualite" />
+
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_room"
+            android:title="@string/menu_restaurant" />
     </group>
+
+    <group
+        android:id="@+id/settings"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_parametre"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_parametre" />
+        <item
+            android:id="@+id/nav_deconnexion"
+            android:icon="@drawable/ic_leave"
+            android:title="@string/menu_deconnexion" />
+    </group>
+
+    <group
+        android:id="@+id/helps"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_mentions_legales"
+            android:icon="@drawable/ic_policy"
+            android:title="@string/menu_mentions_legales" />
+        <item
+            android:id="@+id/nav_aide"
+            android:icon="@drawable/ic_help"
+            android:title="@string/menu_aide" />
+    </group>
+
 </menu>
